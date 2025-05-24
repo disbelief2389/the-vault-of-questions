@@ -44,6 +44,8 @@ body {
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 	color: var(--accent-gold);
+    padding-bottom: 1rem;
+    border-bottom: 2px var(--accent-gold) solid;
 }
 
 .nav-link {
@@ -70,8 +72,18 @@ body {
 	max-width: none; /* Remove previous max-width constraint */
 }
 
+h2.section-header {
+    text-transform: uppercase;
+    letter-spacing: .4rem;
+    margin-bottom: 2rem;
+    color: var(--accent-gold);
+    background: #0000001f;
+    padding: 0.2rem 1rem;
+    width: max-content;
+}
+
 .question-card {
-	background: rgba(255, 255, 255, 0.05);
+	background: rgba(116, 116, 116, 0.05);
 	padding: 2rem;
 	margin-bottom: 2rem;
 	border-radius: 3px;
@@ -90,7 +102,7 @@ body {
 }
 
 .question-body {
-	background: rgba(0, 0, 0, 0.3);
+	background: var(--primary-dark);
 	padding: 1.5rem;
 	border-left: 2px solid var(--accent-gold);
 	margin: 1rem 0;
